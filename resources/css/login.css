@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+body {
+	background:#fafafa;
+}
+
+.login-form{
+	padding-top:120px;
+}
+
+@media (max-width: 767px) {
+	
+.login-form{
+	padding-top:40px;
+}
+}

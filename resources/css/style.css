@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*reset*/
+html{
+	overflow-y:scroll;
+	}
+	
+h1, h2, p, ul, li {
+	margin:0;
+	padding:0;
+}
+li {
+	list-style:none;
+}
+
+/*main*/
+#logo a:link{
+	display:block;
+	text-indent:-99999px;
+	width:138px;
+	height:44px;
+	float:left;
+}
+body {
+	width:100%;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11.5px;
+	color:#333333;
+	line-height:1.1;
+}
+#main {
+	margin:10px auto;
+	padding:10px 0;
+	text-align:left;
+	width:100%;
+	background:url(images/peach-logo.png) no-repeat left top;
+}
+h1 {
+	font-size:24px;
+	margin-bottom:30px;
+	color:#999999;
+	padding:0 0 15px 180px;
+	border-bottom:solid #999999 4px;
+}
+h2 {
+	font-size:16px;
+	margin-bottom:20px;
+	color:#A26099;
+}
+
+
+
+
+
+/*
+table {
+	margin-bottom:30px;
+}
+.box02 table {
+	margin-bottom:0px;
+}
+table th {
+	padding:3px;
+	height:20px;
+	text-align:left;
+	color:#666666;
+}
+table.phoenix th {
+	color:#A26099;
+}
+table td {
+	padding:3px;
+	height:20px;
+}
+.textbox input, input.textbox, textarea {
+	background-color:#F5F5F5;
+	border:solid #CCCCCC 1px;
+}
+.box {
+	border:solid #CCCCCC 1px;
+	padding:20px 10px 0;
+	margin-bottom:30px;
+}
+.box02 {
+	border:solid #CCCCCC 1px;
+	padding:10px;
+	margin-bottom:30px;
+}
+.check01 {
+	margin-bottom:0;
+}
+.check01 td{
+	width:80px;
+}
+.check01 td.t2 {
+	width:169px;
+}
+.req {
+	color:#CC0000;
+	margin:0 0 20px 5px;
+}
+ul.contents {
+	margin-bottom:40px;
+	width:800px;
+}
+ul.contents li {
+	margin-bottom:15px;
+	font-size:16px;
+	list-style:square;
+	margin-left:20px;
+}
+ul.contents li a:link, ul.contents li a:visited {
+	color:#A26099;
+	text-decoration:none;
+}
+ul.contents li a:hover {
+	text-decoration:underline;
+}
+p.text {
+	margin-bottom:40px;
+}
+*/
+
+
+
+
+
+/*common*/
+.floatL {
+	float:left;
+}
+.floatR {
+	float:right;
+}
+.center {
+	text-align:center;
+}
+.right {
+		text-align:right;
+}
+.mt56 {
+	margin-top:60px;
+}
+.red {
+	color:#CC0000;
+}
+#toTop {
+	margin-top:10px;
+}
+#toTop a:link, #toTop a:visited {
+	color:#A26099;
+	text-decoration:none;
+}
+#toTop a:hover {
+	text-decoration:underline;
+}
+.clearfix {
+	zoom:1;
+	clear:both;
+}
+.clearfix:after {
+    content: ""; 
+    display: block; 
+    clear: both;
+}

@@ -1,0 +1,258 @@
+@CHARSET "UTF-8";
+
+
+.ui-draggable-dragging {
+    z-index: 10000!important;
+}
+
+/* .bootstrap-select{
+	z-index: 10000!important;
+}
+.dropdown-menu open{
+	z-index:1000;
+} */
+
+.menu-title{
+	color:#fff;
+	-moz-text-shadow:3px 3px 3px #656565;
+    -webkit-text-shadow:3px 3px 3px #656565;
+    text-shadow:3px 3px 3px #656565;
+}
+
+.scroll-table{
+	margin-top:0px;
+	padding-top:0px;
+	overflow:scroll;
+	height: 400px;
+}
+
+.scroll-table-short{
+	margin-top:0px;
+	padding-top:0px;
+	overflow:scroll;
+	height: 150px;
+}
+
+.scroll-table-timetable{
+	margin-top:0px;
+	padding-top:0px;
+	overflow:scroll;
+	height: 350px;
+}
+
+.scroll-table-timetable-mapping{
+	margin-top:0px;
+	padding-top:0px;
+	overflow:scroll;
+	height: 500px;	
+}
+
+@media (max-width: 767px) {
+	
+.scroll-table{
+	overflow:scroll;
+	height: 230px;
+}
+}
+
+
+
+.no-resize-horizontal-textarea{
+	resize: vertical;
+}
+
+.hidden-element{
+	display:none;
+}
+
+body {
+	/*background:	#EDF1F4;*/
+	/*background: #F3F1E4; */
+	background:#fff;
+}
+
+#collapseMedia{
+	background-color: #3a3e41;
+	margin-bottom:10px;
+}
+.mediaSearch{
+	padding:10px 10px 0px 10px;
+}
+.contentslist{
+	padding:10px 10px 0px 10px;
+	margin:0px;
+	height:127px;
+	white-space: nowrap;
+	overflow-x: scroll;
+}
+
+#table-timetable-header{
+	margin-bottom: 0px;
+}
+#table-timetable-detail{
+	margin:0px;
+	padding:0px;
+}
+
+#table-timetable-detail tr{
+	height:100px;
+}
+
+.movie{
+	position:relative;
+	margin-bottom:0px;
+	display: inline-block;
+	height:107px;
+	width:96px;
+	background:#fff;
+}
+.movie-caption{
+	margin:0;
+	padding:0;
+	position: absolute;
+	color:#000;
+	bottom:0;
+	left:2px;
+	width:92px;
+	height:20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+
+.movie2{
+	position:relative;
+	margin:2px 0px 0px 2px;
+	display: inline-block;
+	padding:0px;
+	height:107px;
+	width:96px;
+}
+
+#cm{
+ height:117px;
+}
+
+.cm-hover{
+ background-color:#c01a17;
+}
+
+.movieDropArea{
+}
+
+.timeLabel{
+}
+
+.fixed-height-panel{
+	height:450px;
+}
+
+#icon
+{
+width: 150px;
+height: 150px;
+position: absolute;
+background-image : url("../images/ball.png");
+background-size: contain;
+overflow:hidden;
+top: 0px;
+left: 0px; 
+}
+
+#canvas{
+	width:100%; 
+	height:300px;
+}
+
+/*
+html,body{
+	margin:0;
+	padding:0;
+	
+}
+.bar {
+    height: 18px;
+    background: green;
+}
+
+.function_area{
+margin:0;
+padding:20px;
+width:100%;
+height: 44px;  
+background-color:#b4b4b4;
+}
+
+#contents{
+	margin:0;
+	padding:20px;
+}
+
+.dataTables_empty {
+color: red;
+padding-left: 400px;
+}
+
+.error_message{
+color: red;
+}
+
+#Wrapper{
+	position: absolute;
+	z-index: 1;
+}
+
+
+#modalWrap{
+	padding:0;
+	background-color:#000000;
+	opacity:0.8;
+	position: absolute;
+	display: none;
+	z-index: 2;
+}
+
+#modal{
+	width:440px;
+	height: 500px;
+	position:absolute;
+	z-index: 3;
+	display: none;
+}
+
+
+#icon
+{
+width: 150px;
+height: 150px;
+position: absolute;
+background-image : url("../images/ball.png");
+background-size: contain;
+overflow:hidden;
+top: 0px;
+left: 0px; 
+}
+
+#canvasContainer{
+	padding:20px;
+}
+#canvas{
+	width:900px; 
+	height:300px;
+}
+
+#canvas .olControlAttribution {
+    font-size:13px;
+    bottom:3px;
+}
+
+h1{
+	font-size:24px;
+	margin-bottom:30px;
+	font-family:Verdana,Geneva,sens-serif;
+	color:#999999;
+	padding:0 0 15px 180px;
+	border-bottom:solid #999999 4px;
+}
+*/

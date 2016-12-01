@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* CSS Document */
+
+input {
+	margin-bottom:0;
+}
+.left_side {
+	width:65%;
+	margin-right:1%;
+	float:left;
+}
+.right_side {
+	width:34%;
+	float:left;
+}
+.form_cate {
+	border:solid #999 1px;
+	padding:0 0 20px 0;
+	text-align:left;
+	margin-bottom:25px;
+}
+.cate_title {
+	background-color:#999999;
+	color:#FFF;
+	font-weight:bold;
+	font-size:150%;
+	padding:10px 20px;
+	width:100%;
+	margin-bottom:20px;
+}
+/*Flight Information*/
+.label01 {
+	width:20%;
+	margin:0 0 10px 20px;
+	float:left;
+	height:34px;
+}
+.label02 {
+	width:24%;
+	margin:0 30px 10px 0;
+	float:left;
+	height:34px;
+}
+.label01_2 {
+	width:20%;
+	margin:0 0 10px 20px;
+	float:left;
+	height:auto;
+}
+/*リスク評価*/
+.label05 {
+	width:8%;
+	margin:0 20px 10px 0;
+	float:left;
+	height:34px;
+}
+.label05_2 {
+	width:15%;
+	margin:0 30px 10px 0;
+	float:left;
+	height:34px;
+}
+/*PENGUINサブカテゴリ*/
+.label05 .checkbox {
+	float:left;
+}
+/*レポート件名, PEACOCKカテゴリエリア*/
+.label03 {
+	width:74%;
+	margin:0 30px 10px 0;
+	float:left;
+	height:34px;
+}
+/*添付ファイル、関連レポート、備考エリア、MR*/
+.label04 {
+	width:74%;
+	margin:0 30px 10px 0;
+	float:left;
+	height:auto;
+}
+/*PEACOCKカテゴリ*/
+.label04 .col-md-6 {
+	padding-left:0;
+}
+/*Report Definition, Inquiry, PAX Information*/
+.label06 {
+	width:30%;
+	margin:0 0 10px 20px;
+	float:left;
+	height:34px;
+}
+.label07 {
+	width:50%;
+	margin:0 0 10px 10px;
+	float:left;
+	height:34px;
+}
+.label07_2 {
+	width:50%;
+	margin:0 0 10px 10px;
+	float:left;
+	height:auto;
+}
+/*日本語エリア*/
+.label01 span, .label01_2 span, .label03 span, .label05 span, .label05_2 span, .label06 span {
+	font-weight:normal;
+	margin:4px 0;
+	display:block;
+}
+/*必須項目*/
+.label01 .danger, .label06 .danger {
+	color:#a94442;
+	display:inline;
+}
+/*区間矢印、曜日*/
+.label02 .form-control-static {
+	float:left;
+	width:20%;
+	text-align:center;
+}
+/*時間*/
+.label02 .text {
+	float:left;
+	text-align:left;
+	padding:10px 0 10px 12px;
+}
+.label02 .control-label{
+	float:left;
+	width:40%;
+	text-align:right;
+	padding:10px 12px;
+}
+/*選択肢*/
+select {
+	margin-bottom:0;
+	width:100%;
+}
+/*区間*/
+.form-control-static {
+	padding:7px 0px;
+	height:34px;
+}
+/*入力ボックス*/
+.inputbox {
+	outline-width:100%;
+	height:34px;
+	padding:6px 12px;
+	font-size:14px;
+	line-height:1.4285;
+	color:#555;
+	background-color:#ffffff;
+	border:solid #ccc 1px;
+	border-radius:4px;
+	-webkit-box-shadow:inset 0 1px 1px raba(0, 0, 0, 0.075);
+	box-shadow:inset 0 1px 1px raba(0, 0, 0, 0.075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	width:100%;
+}
+.inputbox02 {
+	outline-width:100%;
+	height:34px;
+	padding:6px 12px;
+	font-size:14px;
+	line-height:1.4285;
+	color:#555;
+	background-color:#ffffff;
+	border:solid #ccc 1px;
+	border-radius:4px;
+	-webkit-box-shadow:inset 0 1px 1px raba(0, 0, 0, 0.075);
+	box-shadow:inset 0 1px 1px raba(0, 0, 0, 0.075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	width:40%;
+	float:left;
+}
+.inputbox03 {
+	outline-width:100%;
+	height:auto;
+	overflow:auto;
+	padding:6px 12px;
+	font-size:14px;
+	line-height:1.4285;
+	color:#555;
+	background-color:#ffffff;
+	border:solid #ccc 1px;
+	border-radius:4px;
+	-webkit-box-shadow:inset 0 1px 1px raba(0, 0, 0, 0.075);
+	box-shadow:inset 0 1px 1px raba(0, 0, 0, 0.075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	width:100%;
+	resize: vertical;
+}
+/*placeholder文字色*/
+::-webkit-input-placeholder {color: #999} 
+/*Firefox 19以降*/ 
+::-moz-placeholder  {color: #999} 
+/*Firefox 18以前*/ 
+:-moz-placeholder   {color: #999} 
+/*Windows IE*/ 
+:-ms-input-placeholder  {color: #999}  
+
+/*非活性時*/
+[disabled].inputbox, [disabled].inputbox02, [disabled].inputbox03{
+	background-color: #eeeeee;
+}
+
+
+/*関連レポート*/
+.report_link {
+	margin-right:30px;
+}
+#rerated_report_list {
+	padding-bottom:40px;
+}
+li.rerated_report {
+	margin:5px 0;
+	line-height:1.6;
+}
+/*添付ファイル*/
+.add-attachfile {
+	margin-top:10px;
+}
+.attache_file {
+	margin-top:15px;
+}
+/*回答閲覧済ボタン*/
+.viewed {
+	float:right;
+	margin-bottom:10px;
+}
+/*フッターエリア*/
+#footer {
+	margin:10px 0;
+	text-align:center;
+	width:100%;
+}
+.sendmail {
+	margin:20px 0;
+	line-height:1.2;
+	text-align:center;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+.label08 {
+	margin:0 20px 10px 0;
+	float:left;
+}
+.sendmail input {
+	width:15px;
+}
+#pagetop {
+	text-align:right;
+	font-size:110%;
+	padding-right:10px;
+	margin-top:10px;
+}
