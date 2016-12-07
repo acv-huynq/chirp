@@ -9,7 +9,7 @@ class LoginController extends BaseController {
 	 * コンストラクタ
 	 */
 	function __construct() {
-		$this->requireAuth = false;
+		$this->requireAuth = true;
 		parent::__construct();
 	}
 

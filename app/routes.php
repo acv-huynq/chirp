@@ -10,6 +10,10 @@
 | そしてそのURIに対応する実行コードをクロージャーで指定します。
 |
 */
+/*
+ * Check authen
+ */
+Route::controller('/auth', 'AuthenAPIController');
 
 /*
  * レポート画面
@@ -35,6 +39,9 @@ Route::controller('/alert', 'AlertController');
  * ログイン画面
  */
 Route::controller('/', 'LoginController');
+
+
+
 
 // /*
 //  * ルートの場合はリダイレクト

@@ -32,8 +32,8 @@ ClassLoader::addDirectories(array(
 |
 */
 
-Log::useFiles('/home/chirp-admin/chirplogs/laravel.log', 'error');
-// Log::useDailyFiles(storage_path() . '/logs/laravel.log', 30, 'debug');
+//Log::useFiles('/home/chirp-admin/chirplogs/laravel.log', 'error');
+ Log::useDailyFiles(storage_path() . '/logs/laravel.log', 30, 'debug');
 
 /*
 |--------------------------------------------------------------------------
@@ -51,9 +51,9 @@ Log::useFiles('/home/chirp-admin/chirplogs/laravel.log', 'error');
 App::error(function(Exception $exception, $code)
 {
 	Log::error($exception . "\nurl=" . Request::url());
-// 	Log::info(Request::url());
+ 	Log::info(Request::url());
 
-	return Response::View('error');
+//	return Response::View('error');
 });
 
 /*

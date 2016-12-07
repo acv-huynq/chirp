@@ -33,14 +33,15 @@ class BaseController extends Controller {
 			if($this->requireAuth){
 
 				// ログイン済みの場合
-				if($this -> isLogin() ){
+				if($this->isLogin() ){
 
 					// ユーザー情報取得
 					$this->user = unserialize(Session::get('SESSION_KEY_CHIRP_USER'));
 
 				// ログインしてない場合
 				}else{
-					return View::make('timeout');
+					return Redirect::to('/auth/redirect');
+//					return View::make('timeout');
 				}
 			}
 		});
